@@ -226,7 +226,7 @@
   
     
   
-  Turorials
+  Tutorials
 
         </a>
       </li>
@@ -385,7 +385,7 @@
               
   
   <span class="md-ellipsis">
-    Turorials
+    Tutorials
   </span>
   
 
@@ -401,7 +401,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Turorials
+            Tutorials
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -660,14 +660,19 @@
 
   <!-- Markdown content -->
   <h1 id="quick-start">Quick start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h1>
-<h2 id="create-a-basic-network">Create a basic network<a class="headerlink" href="#create-a-basic-network" title="Permanent link">&para;</a></h2>
-<p>Before using AstroWarp, we need to create our own network. The following instructions include some basic network creation guide. You can choose the one that suits your scenario to start with</p>
-<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_remote_access/">Setting Up AstroWarp with GL.iNet Routers: Remote Access</a></p>
-<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_keep_ip_home/">Setting Up AstroWarp with GL.iNet Routers: Keep IP home</a></p>
-<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_remote_networking/">Setting Up AstroWarp with GL.iNet Routers: Remote networking</a></p>
-<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_aggregation_vpn/">Setting Up AstroWarp with GL.iNet Routers: Aggregation VPN</a></p>
+<h2 id="create-a-basic-network"><strong>Create a basic network</strong><a class="headerlink" href="#create-a-basic-network" title="Permanent link">&para;</a></h2>
+<p>For first-time users, we recommend setting up your AstroWarp network based on your specific needs. Here are some network setup options to choose from, depending on your scenario:</p>
+<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_remote_access/"><strong>Setting Up AstroWarp with GL.iNet Routers: Remote Access</strong></a></p>
+<p>​       If you need to access your devices remotely, follow this guide.</p>
+<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_keep_ip_home/"><strong>Setting Up AstroWarp with GL.iNet Routers: Keep IP home</strong></a></p>
+<p>​       This option is for users who want to maintain their home IP address while away.</p>
+<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_remote_networking/"><strong>Setting Up AstroWarp with GL.iNet Routers: Remote networking</strong></a></p>
+<p>​       Ideal for users who need to set up a network between different locations.</p>
+<p><a href="../tutorials/setting_up_astrowarp_with_glinet_routers_aggregation_vpn/"><strong>Setting Up AstroWarp with GL.iNet Routers: Aggregation VPN</strong></a></p>
+<p>​       For those looking to combine multiple connections to increase speed and reliability.</p>
+<p><br></p>
 <p>After completing the creation of the basic network, we can continue reading to complete more complex operations.</p>
-<h2 id="router-node-management">Router node management<a class="headerlink" href="#router-node-management" title="Permanent link">&para;</a></h2>
+<h2 id="router-node-management"><strong>Router node management</strong><a class="headerlink" href="#router-node-management" title="Permanent link">&para;</a></h2>
 <h3 id="add-router-nodes">Add router nodes<a class="headerlink" href="#add-router-nodes" title="Permanent link">&para;</a></h3>
 <p>You can add more router nodes to the basic network to enrich your application.</p>
 <p><img alt="" src="../images/astrowarp_add_router_node.gif" /></p>
@@ -677,7 +682,7 @@
 <h3 id="delete-router-nodes">Delete router nodes<a class="headerlink" href="#delete-router-nodes" title="Permanent link">&para;</a></h3>
 <p>If the router node is no longer needed, we can delete it.</p>
 <p><img alt="" src="../images/astrowarp_delete_node.gif" /></p>
-<h2 id="access-permission-settings">Access permission settings<a class="headerlink" href="#access-permission-settings" title="Permanent link">&para;</a></h2>
+<h2 id="access-permission-settings"><strong>Access permission settings</strong><a class="headerlink" href="#access-permission-settings" title="Permanent link">&para;</a></h2>
 <h3 id="node-access-permissions">Node access permissions<a class="headerlink" href="#node-access-permissions" title="Permanent link">&para;</a></h3>
 <p>Draw a line on the topology map to establish a network connection between two nodes.</p>
 <p><img alt="" src="../images/astrowarp_node_permission.gif" /></p>
@@ -699,15 +704,17 @@
 <p>You can set a domain name for <strong>local</strong> access for any resource. The domain name suffix is always atwp.net. The fixed suffix is for easier certificate issuance.</p>
 <p><img alt="" src="../images/astrowarp_resource_set_domain.gif" /></p>
 <p>This domain name is resolved locally by the router, so please do not set DNS encryption on your access end or point the DNS service to other addresses.</p>
-<h2 id="exit-node-settings">Exit Node Settings<a class="headerlink" href="#exit-node-settings" title="Permanent link">&para;</a></h2>
+<h2 id="exit-node-settings"><strong>Exit Node Settings</strong><a class="headerlink" href="#exit-node-settings" title="Permanent link">&para;</a></h2>
 <p>Router nodes can be used as Internet exits.</p>
 <p><img alt="" src="../images/astrowarp_set_exit_node.gif" /></p>
 <p>Exit nodes are not used for any router nodes by default, so we need to set whether other routers use this exit.</p>
 <p><img alt="" src="../images/astrowarp_use_exit_node.gif" /></p>
-<h2 id="cloud-node-management">Cloud Node Management<a class="headerlink" href="#cloud-node-management" title="Permanent link">&para;</a></h2>
+<h2 id="cloud-node-management"><strong>Cloud Node Management</strong><a class="headerlink" href="#cloud-node-management" title="Permanent link">&para;</a></h2>
 <h3 id="switch-cloud-node-location">Switch Cloud Node Location<a class="headerlink" href="#switch-cloud-node-location" title="Permanent link">&para;</a></h3>
 <p>In a few cases, the recommended server may be subject to some restrictions. If necessary, you can switch to a different server location.</p>
 <p><img alt="" src="../images/astrowarp_node_exchange.gif" /></p>
+<hr />
+<p>Still have questions? Visit our <a href="https://forum.gl-inet.com" target="_blank">Community Forum</a>.</p>
 
   <!-- Last update of source file -->
   

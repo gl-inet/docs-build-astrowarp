@@ -234,6 +234,26 @@
   
 
       
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+    
+  
+  FAQ
+
+        </a>
+      </li>
+    
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -494,6 +514,63 @@
   
 
     
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../faq/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -556,6 +633,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#disable-astrowarp-services" class="md-nav__link">
+    Disable astrowarp services
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -585,8 +669,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#virtual-ip" class="md-nav__link">
-    Virtual IP
+  <a href="#accessible-address-virtual-ip" class="md-nav__link">
+    Accessible address (Virtual IP)
   </a>
   
 </li>
@@ -626,6 +710,26 @@
           <li class="md-nav__item">
   <a href="#switch-cloud-node-location" class="md-nav__link">
     Switch Cloud Node Location
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-management" class="md-nav__link">
+    Network Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stop-or-start-network" class="md-nav__link">
+    Stop or start network
   </a>
   
 </li>
@@ -682,7 +786,11 @@
 <h3 id="delete-router-nodes">Delete router nodes<a class="headerlink" href="#delete-router-nodes" title="Permanent link">&para;</a></h3>
 <p>If the router node is no longer needed, we can delete it.</p>
 <p><img alt="" src="../images/astrowarp_delete_node.gif" /></p>
+<h3 id="disable-astrowarp-services">Disable astrowarp services<a class="headerlink" href="#disable-astrowarp-services" title="Permanent link">&para;</a></h3>
+<p>If you need to disable the astrowarp service on your router, you can turn off the virtual network connection in your router's details settings.</p>
+<p><img alt="" src="../images/router_disable_astrowarp.gif" /></p>
 <h2 id="access-permission-settings"><strong>Access permission settings</strong><a class="headerlink" href="#access-permission-settings" title="Permanent link">&para;</a></h2>
+<p>Node access and resource access constitute the permission control mechanism of astrowarp, and the device is only allowed to access if both permissions are set correctly.</p>
 <h3 id="node-access-permissions">Node access permissions<a class="headerlink" href="#node-access-permissions" title="Permanent link">&para;</a></h3>
 <p>Draw a line on the topology map to establish a network connection between two nodes.</p>
 <p><img alt="" src="../images/astrowarp_node_permission.gif" /></p>
@@ -694,7 +802,7 @@
 <p><img alt="" src="../images/astrowarp_node_add_resource.gif" /></p>
 <p>Or you can quickly add resources through the + sign on the right of the node.</p>
 <p><img alt="" src="../images/astrowarp_node_add_resource_shortcut.gif" /></p>
-<h4 id="virtual-ip">Virtual IP<a class="headerlink" href="#virtual-ip" title="Permanent link">&para;</a></h4>
+<h4 id="accessible-address-virtual-ip">Accessible address (Virtual IP)<a class="headerlink" href="#accessible-address-virtual-ip" title="Permanent link">&para;</a></h4>
 <p>Once a resource is added, a virtual IP will be automatically assigned for access, virtual IP can effectively avoid subnet conflicts and IP changes between routers.</p>
 <p>The virtual IP is not actually assigned to your device, but is done through NAT rules like the one below.</p>
 <div class="highlight"><pre><span></span><code>iptables -t nat -I POSTROUTING -d 10.0.2.3/32 -j DNAT --to-destination 192.168.99.171
@@ -713,6 +821,9 @@
 <h3 id="switch-cloud-node-location">Switch Cloud Node Location<a class="headerlink" href="#switch-cloud-node-location" title="Permanent link">&para;</a></h3>
 <p>In a few cases, the recommended server may be subject to some restrictions. If necessary, you can switch to a different server location.</p>
 <p><img alt="" src="../images/astrowarp_node_exchange.gif" /></p>
+<h2 id="network-management"><strong>Network Management</strong><a class="headerlink" href="#network-management" title="Permanent link">&para;</a></h2>
+<h3 id="stop-or-start-network">Stop or start network<a class="headerlink" href="#stop-or-start-network" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../images/astrowarp_stop_or_start_network.gif" /></p>
 <hr />
 <p>Still have questions? Visit our <a href="https://forum.gl-inet.com" target="_blank">Community Forum</a>.</p>
 

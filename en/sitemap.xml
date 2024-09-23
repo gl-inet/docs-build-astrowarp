@@ -2,52 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.astrowarp.net/en/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.astrowarp.net/en/faq/</loc>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/quick_start/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/game_stream/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/how_to_implement_remote_desktop_on_a_computer/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/preparation_work/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/setting_up_astrowarp_with_glinet_routers_aggregation_vpn/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/setting_up_astrowarp_with_glinet_routers_keep_ip_home/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/setting_up_astrowarp_with_glinet_routers_remote_access/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.astrowarp.net/en/tutorials/setting_up_astrowarp_with_glinet_routers_remote_networking/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <lastmod>2024-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

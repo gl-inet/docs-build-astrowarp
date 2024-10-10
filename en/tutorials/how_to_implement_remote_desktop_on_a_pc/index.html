@@ -12,9 +12,13 @@
         <meta name="author" content="AstroWarp">
       
       
-        <link rel="canonical" href="https://docs.astrowarp.net/en/tutorials/how_to_implement_remote_desktop_on_a_computer/">
+        <link rel="canonical" href="https://docs.astrowarp.net/en/tutorials/how_to_implement_remote_desktop_on_a_pc/">
       
       
+        <link rel="prev" href="../setting_up_astrowarp_with_glinet_routers_aggregation_vpn/">
+      
+      
+        <link rel="next" href="../game_stream/">
       
       
       <link rel="icon" href="../../images/favicon.ico">
@@ -22,7 +26,7 @@
     
     
       
-        <title>How to Implement Remote Desktop on a Computer - AstroWarp Docs</title>
+        <title>Remote Desktop - AstroWarp Docs</title>
       
     
     
@@ -73,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-implement-remote-desktop-on-a-computer" class="md-skip">
+        <a href="#how-to-implement-remote-desktop-on-a-pc" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to Implement Remote Desktop on a Computer
+              Remote Desktop
             
           </span>
         </div>
@@ -211,10 +215,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../" class="md-tabs__link">
           
   
@@ -360,6 +366,8 @@
       
   
   
+    
+  
   
     
     
@@ -376,6 +384,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -383,12 +395,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           
@@ -410,7 +422,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Tutorials
@@ -490,6 +502,114 @@
   
   <span class="md-ellipsis">
     Aggregation VPN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Remote Desktop
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Remote Desktop
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#enable-remote-desktop" class="md-nav__link">
+    Enable Remote Desktop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#find-the-username" class="md-nav__link">
+    Find the Username
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configure-the-pc-as-accessible-resource-in-the-network" class="md-nav__link">
+    Configure the PC as accessible resource in the Network
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-to-remote-desktop" class="md-nav__link">
+    Connect to Remote Desktop
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game_stream/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Game Streaming
   </span>
   
 
@@ -590,43 +710,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ensure-version-support" class="md-nav__link">
-    Ensure Version Support:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#enable-remote-desktop" class="md-nav__link">
-    Enable Remote Desktop:
+    Enable Remote Desktop
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#record-the-username" class="md-nav__link">
-    Record the Username:
+  <a href="#find-the-username" class="md-nav__link">
+    Find the Username
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configure-firewall" class="md-nav__link">
-    Configure Firewall:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configure-the-network" class="md-nav__link">
-    Configure the Network:
+  <a href="#configure-the-pc-as-accessible-resource-in-the-network" class="md-nav__link">
+    Configure the PC as accessible resource in the Network
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#connect-to-remote-desktop" class="md-nav__link">
-    Connect to Remote Desktop:
+    Connect to Remote Desktop
   </a>
   
 </li>
@@ -655,47 +761,40 @@
   
 
   <!-- Markdown content -->
-  <h1 id="how-to-implement-remote-desktop-on-a-computer">How to Implement Remote Desktop on a Computer<a class="headerlink" href="#how-to-implement-remote-desktop-on-a-computer" title="Permanent link">&para;</a></h1>
-<h3 id="ensure-version-support">Ensure Version Support:<a class="headerlink" href="#ensure-version-support" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Make sure your computer is running Windows Professional, Enterprise, or Education edition, as the Home edition does not support Remote Desktop functionality.</li>
-</ul>
-<h3 id="enable-remote-desktop">Enable Remote Desktop:<a class="headerlink" href="#enable-remote-desktop" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Right-click on “This PC” and select “Properties.”</li>
-<li>Click on “Remote settings.”</li>
-<li>Under the Remote tab, check “Allow remote connections to this computer” and make sure “Only allow connections from computers running Remote Desktop with Network Level Authentication” is unchecked.
-<img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/2-1.png" /></li>
-</ul>
-<h3 id="record-the-username">Record the Username:<a class="headerlink" href="#record-the-username" title="Permanent link">&para;</a></h3>
-<ul>
-<li>In the “System” window, note down your username for remote connection.
-<img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/3-1.png" /></li>
-</ul>
-<h3 id="configure-firewall">Configure Firewall:<a class="headerlink" href="#configure-firewall" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Ensure that Windows Firewall allows RDP traffic. You can check and allow “Remote Desktop” in the firewall settings under the Control Panel.
-<img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/4.png" /></li>
-</ul>
-<h3 id="configure-the-network">Configure the Network:<a class="headerlink" href="#configure-the-network" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Add the computer to be accessed remotely as an accessible resource. In the diagram, GLinet-SDWAN is shown as a computer already added as an accessible resource.
-  <img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/1.png" /></li>
-</ul>
+  <h1 id="how-to-implement-remote-desktop-on-a-pc">How to Implement Remote Desktop on a PC<a class="headerlink" href="#how-to-implement-remote-desktop-on-a-pc" title="Permanent link">&para;</a></h1>
+<p>With AstroWarp, you can establish secure remote desktop connections to your PCs without the need for public IP addresses.</p>
+<h2 id="enable-remote-desktop">Enable Remote Desktop<a class="headerlink" href="#enable-remote-desktop" title="Permanent link">&para;</a></h2>
+<p>Please fellow the guide here to enable remote desktop on your PC: <a href="https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c" target="_blank">Enable Remote Desktop on Windows</a>.</p>
+<h2 id="find-the-username">Find the Username<a class="headerlink" href="#find-the-username" title="Permanent link">&para;</a></h2>
+<p>Fellow the guide below to find the username for remote connection:</p>
+<ol>
+<li>Press the Windows key + I to open the Settings app.</li>
+<li>Click on "Accounts".</li>
+<li>In the left sidebar, click on "Your info".</li>
+<li>
+<p>Under your profile picture and name, you will see the username associated with the Windows account.</p>
+<p><img alt="" class="glboxshadow gl-50-desktop" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/windows_username.png" /></p>
+</li>
+</ol>
+<h2 id="configure-the-pc-as-accessible-resource-in-the-network">Configure the PC as accessible resource in the Network<a class="headerlink" href="#configure-the-pc-as-accessible-resource-in-the-network" title="Permanent link">&para;</a></h2>
+<p>The PC that needs to be remotely accessed is connected under the <strong>MT3000-Host</strong>. Click <strong>MT3000-Host</strong>, then click the <strong>+</strong> sign to add the PC as an accessible resource.</p>
+<p><img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/add_resource.png" /></p>
+<p>In the diagram, GLinet-SDWAN is shown as a computer already added as an accessible resource. Its virtual IP is <code>10.0.3.1</code>.</p>
 <p><img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/2.png" /></p>
-<h3 id="connect-to-remote-desktop">Connect to Remote Desktop:<a class="headerlink" href="#connect-to-remote-desktop" title="Permanent link">&para;</a></h3>
-<ul>
+<h2 id="connect-to-remote-desktop">Connect to Remote Desktop<a class="headerlink" href="#connect-to-remote-desktop" title="Permanent link">&para;</a></h2>
+<ol>
 <li>
-<p>On another computer, open the “Remote Desktop Connection” program.</p>
+<p>On another computer, open the "Remote Desktop Connection" program.</p>
 </li>
 <li>
-<p>Enter the computer name or IP address you recorded earlier and click “Connect.”</p>
+<p>Enter the computer name or IP address you recorded earlier and click "Connect".</p>
+<p><img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/remote_desktop_connection.png" /></p>
 </li>
 <li>
-<p>Enter your username and password (usually the account name and password you use to log into the computer), and you will be able to access the remote desktop.
-  <img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/3.png" /></p>
+<p>Enter the credentials. The username can find at <a href="#find-the-username">previous step</a>, click OK, then you will be able to access the remote desktop.</p>
+<p><img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/rdp/enter_credentials.png" /></p>
 </li>
-</ul>
+</ol>
 <hr />
 <p>Still have questions? Visit our <a href="https://forum.gl-inet.com" target="_blank">Community Forum</a>.</p>
 

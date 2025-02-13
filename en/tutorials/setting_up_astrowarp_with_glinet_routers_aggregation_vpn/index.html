@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+    
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -711,18 +713,18 @@
               <article class="md-content__inner md-typeset">
                 
 
-  <!-- Edit button -->
-  
+<!-- Edit button -->
 
-  <!--
+
+<!--
     Hack: check whether the content contains a h1 headline. If it
     doesn't, the page title (or respectively site name) is used
     as the main headline.
   -->
-  
 
-  <!-- Markdown content -->
-  <h1 id="setting-up-astrowarp-with-glinet-routers-connection-aggregation">Setting Up AstroWarp with GL.iNet Routers: Connection Aggregation<a class="headerlink" href="#setting-up-astrowarp-with-glinet-routers-connection-aggregation" title="Permanent link">&para;</a></h1>
+
+<!-- Markdown content -->
+<h1 id="setting-up-astrowarp-with-glinet-routers-connection-aggregation">Setting Up AstroWarp with GL.iNet Routers: Connection Aggregation<a class="headerlink" href="#setting-up-astrowarp-with-glinet-routers-connection-aggregation" title="Permanent link">&para;</a></h1>
 <p>This document will guide you in creating an Aggregated VPN link for internet access. By using an Aggregated VPN, users can enjoy a better online experience in certain scenarios.</p>
 <p><img alt="" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/tutorials/aggregation/1.png" /></p>
 <h2 id="creating-the-network">Creating the Network<a class="headerlink" href="#creating-the-network" title="Permanent link">&para;</a></h2>
@@ -740,62 +742,82 @@
 <hr />
 <p>Still have questions? Visit our <a href="https://forum.gl-inet.com" target="_blank">Community Forum</a>.</p>
 
-  <!-- Last update of source file -->
-  
+<!-- Last update of source file -->
 
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Background of PhotoSwipe. 
         It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
+  <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-        </div>
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+    <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+    <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <!--  Controls are self-explanatory. Order can be changed. -->
-            <div class="pswp__counter"></div>
-            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-            <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
-            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-            <!-- element will get class pswp__preloader--active when preloader is running -->
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-              </div>
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <!--  Controls are self-explanatory. Order can be changed. -->
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp__preloader--active when preloader is running -->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
             </div>
           </div>
-
-          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-            <div class="pswp__share-tooltip"></div> 
-          </div>
-
-          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-          </button>
-
-          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-          </button>
-
-          <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
-          </div>
         </div>
+      </div>
+
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
     </div>
+  </div>
 </div>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'functionality_storage': 'denied',
+    'personalization_storage': 'denied',
+    'security_storage': 'denied',
+  });
+</script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-YJVZYVMXEP');
+</script>
 
               </article>
             </div>
@@ -863,7 +885,13 @@
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
       
+        <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
+      
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-YJVZYVMXEP"></script>
+      
         <script src="../../javascripts/extra.js"></script>
+      
+        <script src="../../javascripts/cookieconsent.js"></script>
       
     
   </body>

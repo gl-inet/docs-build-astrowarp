@@ -795,13 +795,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#switch-cloud-node-location" class="md-nav__link">
-    Switch Cloud Node Location
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#delete-network" class="md-nav__link">
     Delete network
   </a>
@@ -939,26 +932,18 @@
 <td><a href="https://dl.gl-inet.com/router/axt1800/stable" target="_blank">4.7.0 or higher</a></td>
 </tr>
 <tr>
-<td>Opal (GL-SFT1200)*</td>
+<td>Opal (GL-SFT1200)</td>
 <td><a href="https://dl.gl-inet.com/router/sft1200/beta" target="_blank">4.7.0 or higher</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Note</strong>: </p>
-<ol>
-<li>
-<p>Opal (GL-SFT1200) does not support setting the Cloud Gateway as an Exit node.</p>
-</li>
-<li>
-<p>Some models, such as the Flint 3 (GL-BE9300) and Slate 7 (GL-BE3600), now have AstroWarp integrated in the web Admin Panel, allowing quick device pairing and networking via dynamic codes without registration or login. See <a href="https://docs.gl-inet.com/router/en/4/interface_guide/astrowarp/" target="_blank">here</a> for details.</p>
+<p><strong>Note</strong>: Some models, such as the Flint 3 (GL-BE9300) and Slate 7 (GL-BE3600), now have AstroWarp integrated in the web Admin Panel, allowing quick device pairing and networking via dynamic codes without registration or login. See <a href="https://docs.gl-inet.com/router/en/4/interface_guide/astrowarp/" target="_blank">here</a> for details.</p>
 <p>The integrated AstroWarp and standalone AstroWarp platform are incompatible and cannot be enabled at the same time.</p>
-</li>
-</ol>
 <h3 id="router-initial-setup">Router initial setup<a class="headerlink" href="#router-initial-setup" title="Permanent link">&para;</a></h3>
 <p>To begin with, please complete the GL.iNet router initial setup by following <a href="https://docs.gl-inet.com/router/en/4/faq/first_time_setup/" target="_blank">this tutorial</a>.</p>
 <h3 id="enable-cloud-services">Enable Cloud services<a class="headerlink" href="#enable-cloud-services" title="Permanent link">&para;</a></h3>
 <p>Please follow the steps below to enable Cloud services before using AstroWarp.</p>
-<p><strong>Step 1:</strong> Log in to the router's web admin panel (<a href="http://192.168.8.1" target="_blank">http://192.168.8.1</a>) and navigate to CLOUD SERVICES -&gt; AstroWarp. Click on <strong>Get Started</strong>. A Cloud Services window will appear in the top right corner. Click <strong>Enable</strong> to activate Cloud Services.</p>
+<p><strong>Step 1:</strong> Log in to the router's web admin panel (<a href="http://192.168.8.1" target="_blank">http://192.168.8.1</a>) and navigate to <strong>CLOUD SERVICES</strong> -&gt; <strong>AstroWarp</strong>. Click on <strong>Get Started</strong>. A Cloud Services window will appear in the top right corner. Click <strong>Enable</strong> to activate Cloud Services.</p>
 <p><img alt="enable cloud service" class="glboxshadow" src="https://static.gl-inet.com/docs/astrowarp/quick_start/1.png" /></p>
 <p><strong>Step 2</strong>: Log in with your glinet account.</p>
 <p><img alt="log in cloud" class="glboxshadow gl-60-desktop" src="https://static.gl-inet.com/docs/astrowarp/quick_start/2.png" /></p>
@@ -1006,7 +991,6 @@
 <p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/astrowarp_node_permission.gif" /></p>
 <p>Click on the line between two nodes and set access permissions through the permission switch on the right.</p>
 <p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/astrowarp_node_permission_setting.gif" /></p>
-<p><strong>Note:</strong> When you try to connect a router to a cloud node, it means that the current router uses the cloud node as the VPN exit. </p>
 <h4 id="remove-permissions">Remove permissions<a class="headerlink" href="#remove-permissions" title="Permanent link">&para;</a></h4>
 <p>You can also select and delete connections that are no longer needed.</p>
 <p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/delete-line.gif" /></p>
@@ -1032,9 +1016,6 @@
 <p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/astrowarp_set_exit_node.gif" /></p>
 <p>Exit nodes are not used for any router nodes by default, so we need to set whether other routers use this exit.</p>
 <p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/astrowarp_use_exit_node.gif" /></p>
-<h2 id="switch-cloud-node-location">Switch Cloud Node Location<a class="headerlink" href="#switch-cloud-node-location" title="Permanent link">&para;</a></h2>
-<p>In a few cases, the recommended server may be subject to some restrictions. If necessary, you can switch to a different server location.</p>
-<p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/astrowarp_node_exchange.gif" /></p>
 <h2 id="delete-network">Delete network<a class="headerlink" href="#delete-network" title="Permanent link">&para;</a></h2>
 <p><img alt="" src="https://static.gl-inet.com/docs/astrowarp/quick_start/delete_network.gif" /></p>
 <p>Note: Only free network can be deleted.</p>
